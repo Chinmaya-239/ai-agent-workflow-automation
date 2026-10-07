@@ -1,0 +1,9 @@
+employee_id,name,role,skills,current_workload_hours,weekly_capacity_hours,status
+E01,Priya Nair,Senior Developer,python;django;sql;aws,34,40,active
+E02,Arjun Mehta,Developer,react;javascript;css;typescript,18,40,active
+E03,Sana Khan,Developer,python;fastapi;sql;docker,24,40,active
+E04,Rohit Das,Frontend Developer,react;typescript;css;figma,38,40,active
+E05,Meera Iyer,UX Designer,figma;research;css,12,40,active
+E06,Karan Singh,QA Engineer,selenium;python;testing,20,40,active
+E07,Lena Fischer,Developer,java;spring;sql;aws,10,40,on_leave
+E08,Vikram Rao,Data Analyst,sql;python;tableau,22,40,active

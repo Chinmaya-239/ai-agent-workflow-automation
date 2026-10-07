@@ -1,0 +1,23 @@
+[
+ {"id": "WF001_restock", "title": "Inventory restock (test question)", "request": "Which products need restocking?", "expect_workflow": "WF001"},
+ {"id": "WF001_threshold", "title": "Restock with a user-supplied threshold", "request": "Check inventory and list products below a threshold of 20", "expect_workflow": "WF001"},
+ {"id": "WF002_prices", "title": "Price validation (test question)", "request": "Find products where vendor price differs by more than 10%.", "expect_workflow": "WF002"},
+ {"id": "WF002_strict", "title": "Price validation with a stricter 5% rule", "request": "Validate vendor prices, flag anything over 5%", "expect_workflow": "WF002"},
+ {"id": "WF003_vendor", "title": "Vendor file processing (test question)", "request": "Process this vendor spreadsheet and show invalid rows.", "expect_workflow": "WF003"},
+ {"id": "WF004_missing_prompt", "title": "Content generation - nothing provided, agent asks", "request": "Generate SEO content for this product.", "expect_workflow": "WF004", "expect_status": "needs_input"},
+ {"id": "WF004_content", "title": "Content generation with partly missing attributes (agent asks, user answers; material is NOT invented)", "request": "Generate SEO content for this product.", "expect_workflow": "WF004", "answers": {"product_attributes": "name: Trail Runner Pro; category: running shoes; color: blue; audience: trail runners"}},
+ {"id": "WF005_order", "title": "Order status (test question)", "request": "Where is order ORD-1001?", "expect_workflow": "WF005"},
+ {"id": "WF005_not_found", "title": "Unknown order -> agent asks for another identifier -> user supplies one", "request": "Where is order ORD-9999?", "expect_workflow": "WF005", "answers": {"identifier": "ORD-1003"}},
+ {"id": "WF005_email", "title": "Lookup by customer email (multiple orders)", "request": "What orders does alice@example.com have and where are they?", "expect_workflow": "WF005"},
+ {"id": "WF005_carrier_flaky", "title": "Carrier API times out once -> engine retries -> succeeds", "request": "Where is order ORD-1006?", "expect_workflow": "WF005"},
+ {"id": "WF005_carrier_down", "title": "Carrier API down -> retries exhausted -> step skipped, answer still returned", "request": "Track order ORD-1005", "expect_workflow": "WF005"},
+ {"id": "WF006_duplicates", "title": "Duplicate detection (test question)", "request": "Find likely duplicate products in the catalog.", "expect_workflow": "WF006"},
+ {"id": "WF007_missing", "title": "Campaign brief (test question) - goal/dates missing, agent asks, user answers", "request": "Create a campaign brief for the new collection.", "expect_workflow": "WF007", "answers": {"campaign_goal": "increase online sales by 20%", "campaign_dates": "2026-11-01 to 2026-11-30"}},
+ {"id": "WF007_full", "title": "Campaign brief with everything in one request", "request": "Create a campaign brief for the new collection. Goal: increase online sales by 20%. Audience: young professionals. Promotion: 15% off launch week. Dates: 2026-11-01 to 2026-11-30.", "expect_workflow": "WF007"},
+ {"id": "WF007_asks_only", "title": "Campaign brief - agent stops and asks (no guessing)", "request": "Create a campaign brief for the new collection.", "expect_workflow": "WF007", "expect_status": "needs_input"},
+ {"id": "WF008_keywords", "title": "Keyword classification (test question)", "request": "Classify these keywords and map them to pages.", "expect_workflow": "WF008"},
+ {"id": "WF009_developer", "title": "Task assignment (test question)", "request": "Assign this urgent task to the best available developer.", "expect_workflow": "WF009"},
+ {"id": "WF009_react", "title": "Skill-based assignment", "request": "Assign an urgent React bug fix (about 6 hours) to the right person, due 2026-10-12", "expect_workflow": "WF009"},
+ {"id": "WF009_escalate", "title": "No suitable employee -> escalation", "request": "Assign a Kubernetes migration task that needs about 20 hours", "expect_workflow": "WF009", "expect_status": "escalated"},
+ {"id": "WF010_performance", "title": "Performance report (test question)", "request": "Which workflows are failing most often?", "expect_workflow": "WF010"}
+]

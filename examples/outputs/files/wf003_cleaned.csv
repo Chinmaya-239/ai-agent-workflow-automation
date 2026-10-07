@@ -1,0 +1,7 @@
+sku,product_name,price,quantity,category,color,is_valid,row_number,invalid_reason,price_warning
+VX-100,Bamboo Cutting Board,18.5,40,Kitchen,Natural,True,2,,
+VX-101,Silicone Spatula Set,12.0,120,Kitchen,Red,True,3,,
+VX-104,Glass Food Container 1L,,75,Storage,,True,6,,unparseable price 'N/A'
+VX-106,Cast Iron Skillet 26cm,34.0,22,Cookware,Black,True,8,,
+VX-107,Non-stick Frying Pan,27.5,0,Cookware,Grey,True,9,,
+VX-109,Olive Wood Spoon,6.25,200,Kitchen,Brown,True,11,,

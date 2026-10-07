@@ -1,0 +1,12 @@
+workflow_id,workflow,runs,failed,failure_rate_pct
+WF004,Product Description Generator,33,8,24.2
+WF003,Vendor File Processing,38,5,13.2
+WF005,Customer Order Status,64,6,10.2
+WF002,Product Price Validation,35,3,8.6
+WF007,Marketing Campaign Brief,38,3,7.9
+WF008,SEO Keyword Classification,37,2,5.4
+WF010,Workflow Performance Report,38,2,5.3
+WF006,Duplicate Product Detection,36,1,2.8
+WF009,Employee Task Assignment,43,1,2.6
+WF001,Inventory Restock Check,45,1,2.2
+WF011,WF011,1,0,0.0

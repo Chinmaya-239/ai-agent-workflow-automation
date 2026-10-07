@@ -1,0 +1,4 @@
+row_number,invalid_reason,sku,product_name,price,quantity,category
+4,missing sku,,Stainless Colander,22.0,15,Kitchen
+5,missing product_name,VX-103,,9.99,60,Kitchen
+10,missing sku,,Mystery Item Without SKU,5.0,3,Misc

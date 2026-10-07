@@ -1,0 +1,8 @@
+sku,product_name,current_stock,threshold,suggested_reorder_qty
+SH-101,Trail Runner Shoes 42,0,20.0,40
+WT-301,Steel Water Bottle 750ml,3,20.0,97
+JN-010,Slim Fit Jeans 32,5,20.0,35.0
+BG-201,Canvas Backpack,8,20.0,42
+SH-102,Trail Runner Shoes 43,10,20.0,30
+TS-001,Classic Cotton T-Shirt (M),12,20.0,68
+CP-401,Wool Beanie,17,20.0,23.0

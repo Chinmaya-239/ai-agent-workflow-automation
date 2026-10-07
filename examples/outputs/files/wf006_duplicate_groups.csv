@@ -1,0 +1,5 @@
+group,confidence,score,members,example_name,matching_fields,differing_fields
+G1,DEFINITE,1.0,"TS-100, ts 100",Men's Classic Cotton T-Shirt - Blue (L),sku,-
+G2,POSSIBLE - HIGH,1.0,"SH-300, SH-301",Trail Runner Shoes 42 Black,"brand, category, color, size",-
+G3,POSSIBLE - MEDIUM,0.85,"TS-100, ts 100, TS-205",Men's Classic Cotton T-Shirt - Blue (L),"brand, category, color, size",-
+G4,POSSIBLE - MEDIUM,0.76,"WT-500, WT-501",Steel Water Bottle 750ml,"brand, category, color, size",-

@@ -1,0 +1,14 @@
+sku,product_name,category,current_stock,minimum_stock,reorder_target,supplier
+TS-001,Classic Cotton T-Shirt (M),Apparel,12,25,80,Acme Textiles
+TS-002,Classic Cotton T-Shirt (L),Apparel,40,25,80,Acme Textiles
+JN-010,Slim Fit Jeans 32,Apparel,5,15,,Denim Co
+SH-101,Trail Runner Shoes 42,Footwear,0,10,40,StepUp Ltd
+SH-102,Trail Runner Shoes 43,Footwear,10,10,40,StepUp Ltd
+BG-201,Canvas Backpack,Accessories,8,12,50,Carry On
+BG-202,Leather Messenger Bag,Accessories,30,10,30,Carry On
+WT-301,Steel Water Bottle 750ml,Home,3,20,100,HydroMax
+WT-302,Ceramic Mug,Home,55,20,100,HydroMax
+CP-401,Wool Beanie,Apparel,17,18,,Acme Textiles
+HD-501,Zip Hoodie,Apparel,N/A,20,60,Acme Textiles
+SK-601,Cotton Socks 3-pack,Apparel,70,40,160,Acme Textiles
+LT-701,LED Desk Lamp,Home,6,,30,BrightCo

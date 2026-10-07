@@ -1,0 +1,24 @@
+keyword,search_volume,difficulty,intent,category,target_page,priority_score,priority
+buy cotton t shirt online,5400,45,transactional,T-Shirts,/apparel/t-shirts,70.9,High
+zip hoodie sale,7200,52,transactional,Hoodies & Beanies,/apparel/hoodies-beanies,70.0,High
+leather messenger bag price,3100,38,transactional,Bags,/accessories/bags,69.3,High
+slim fit jeans near me,2900,40,transactional,Jeans,/apparel/jeans,67.9,High
+steel water bottle discount code,1800,33,transactional,Water Bottles & Mugs,/home/drinkware,66.6,High
+buy leather messenger bag,2600,44,transactional,Bags,/accessories/bags,65.3,High
+order canvas backpack,800,31,transactional,Bags,/accessories/bags,60.1,High
+water bottle with straw,4900,36,commercial,Water Bottles & Mugs,/home/drinkware,59.3,High
+canvas backpack for school,6600,42,commercial,Bags,/accessories/bags,59.2,High
+desk lamp for study,2400,29,commercial,Lighting,/home/lighting,56.7,High
+cotton socks 3 pack,2100,30,commercial,Socks,/apparel/socks,55.4,High
+trail runner shoes,8500,62,commercial,Running Shoes,/footwear/running-shoes,53.2,Medium
+best led desk lamp,3600,48,commercial,Lighting,/home/lighting,53.0,Medium
+wool beanie vs knit beanie,1200,25,commercial,Hoodies & Beanies,/apparel/hoodies-beanies,52.8,Medium
+best trail running shoes,12000,70,commercial,Running Shoes,/footwear/running-shoes,52.0,Medium
+trail runner shoes review,4100,55,commercial,Running Shoes,/footwear/running-shoes,51.4,Medium
+how to wash a wool beanie,2300,20,informational,Hoodies & Beanies,/apparel/hoodies-beanies,37.1,Medium
+hiking boots waterproof,6100,58,commercial,Unmapped,NEW PAGE NEEDED,36.9,Medium
+office chair ergonomic,8800,65,commercial,Unmapped,NEW PAGE NEEDED,36.6,Medium
+how to choose running shoes,9800,60,informational,Running Shoes,/footwear/running-shoes,34.2,Low
+what is a ceramic mug made of,700,12,informational,Water Bottles & Mugs,/home/drinkware,32.8,Low
+acme official website,1500,8,navigational,Brand / Home,/,22.4,Low
+acme store login,900,5,navigational,Brand / Home,/,21.2,Low

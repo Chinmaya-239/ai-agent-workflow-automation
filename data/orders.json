@@ -1,0 +1,92 @@
+[
+  {
+    "order_id": "ORD-1001",
+    "customer_email": "alice@example.com",
+    "customer_name": "Alice Brown",
+    "order_date": "2026-10-01",
+    "status": "Shipped",
+    "items": [
+      {
+        "sku": "TS-001",
+        "name": "Classic Cotton T-Shirt (M)",
+        "qty": 2
+      }
+    ],
+    "shipment_id": "SHP-9001"
+  },
+  {
+    "order_id": "ORD-1002",
+    "customer_email": "alice@example.com",
+    "customer_name": "Alice Brown",
+    "order_date": "2026-09-20",
+    "status": "Delivered",
+    "items": [
+      {
+        "sku": "WT-302",
+        "name": "Ceramic Mug",
+        "qty": 1
+      }
+    ],
+    "shipment_id": "SHP-9002"
+  },
+  {
+    "order_id": "ORD-1003",
+    "customer_email": "bob@example.com",
+    "customer_name": "Bob Lee",
+    "order_date": "2026-10-05",
+    "status": "Processing",
+    "items": [
+      {
+        "sku": "SH-101",
+        "name": "Trail Runner Shoes 42",
+        "qty": 1
+      }
+    ],
+    "shipment_id": null
+  },
+  {
+    "order_id": "ORD-1004",
+    "customer_email": "carol@example.com",
+    "customer_name": "Carol Diaz",
+    "order_date": "2026-09-28",
+    "status": "Cancelled",
+    "items": [
+      {
+        "sku": "BG-202",
+        "name": "Leather Messenger Bag",
+        "qty": 1
+      }
+    ],
+    "shipment_id": null
+  },
+  {
+    "order_id": "ORD-1005",
+    "customer_email": "dan@example.com",
+    "customer_name": "Dan Wu",
+    "order_date": "2026-10-03",
+    "status": "Shipped",
+    "items": [
+      {
+        "sku": "LT-701",
+        "name": "LED Desk Lamp",
+        "qty": 1
+      }
+    ],
+    "shipment_id": "SHP-9005"
+  },
+  {
+    "order_id": "ORD-1006",
+    "customer_email": "erin@example.com",
+    "customer_name": "Erin Park",
+    "order_date": "2026-10-04",
+    "status": "Shipped",
+    "items": [
+      {
+        "sku": "BG-201",
+        "name": "Canvas Backpack",
+        "qty": 1
+      }
+    ],
+    "shipment_id": "SHP-9006"
+  }
+]

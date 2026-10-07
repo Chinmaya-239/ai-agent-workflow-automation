@@ -1,0 +1,7 @@
+sku,product_name,price,vendor_price,price_diff,pct_diff,status
+WT-301,Steel Water Bottle 750ml,24.0,0,24.0,,CANNOT VALIDATE
+SH-101,Trail Runner Shoes 42,89.5,70.0,19.5,27.86,EXCEPTION
+TS-002,Classic Cotton T-Shirt (L),19.99,17.0,2.99,17.59,EXCEPTION
+BG-201,Canvas Backpack,45.0,52.0,-7.0,-13.46,EXCEPTION
+CP-401,Wool Beanie,22.0,20.0,2.0,10.0,EXCEPTION
+JN-010,Slim Fit Jeans 32,59.0,53.64,5.36,9.99,EXCEPTION

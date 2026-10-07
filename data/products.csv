@@ -1,0 +1,14 @@
+sku,product_name,category,price,brand,color,collection,is_new,material
+TS-001,Classic Cotton T-Shirt (M),Apparel,19.99,Acme,Blue,Spring 2026,no,Cotton
+TS-002,Classic Cotton T-Shirt (L),Apparel,19.99,Acme,Blue,Spring 2026,no,Cotton
+JN-010,Slim Fit Jeans 32,Apparel,59.0,Denim Co,Indigo,Autumn 2026,yes,Denim
+SH-101,Trail Runner Shoes 42,Footwear,89.5,StepUp,Black,Autumn 2026,yes,Mesh
+SH-102,Trail Runner Shoes 43,Footwear,89.5,StepUp,Black,Autumn 2026,yes,Mesh
+BG-201,Canvas Backpack,Accessories,45.0,Carry On,Olive,Autumn 2026,yes,Canvas
+BG-202,Leather Messenger Bag,Accessories,129.0,Carry On,Brown,Classic,no,Leather
+WT-301,Steel Water Bottle 750ml,Home,24.0,HydroMax,Silver,Classic,no,Steel
+WT-302,Ceramic Mug,Home,12.5,HydroMax,White,Classic,no,Ceramic
+CP-401,Wool Beanie,Apparel,22.0,Acme,Grey,Autumn 2026,yes,Wool
+HD-501,Zip Hoodie,Apparel,64.0,Acme,Navy,Autumn 2026,yes,Cotton blend
+SK-601,Cotton Socks 3-pack,Apparel,14.0,Acme,White,Classic,no,Cotton
+LT-701,LED Desk Lamp,Home,35.0,BrightCo,Black,Classic,no,Aluminium

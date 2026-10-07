@@ -1,0 +1,36 @@
+[
+  {
+    "shipment_id": "SHP-9001",
+    "carrier": "FastCarrier",
+    "tracking_number": "FC123456789",
+    "status": "In transit",
+    "eta": "2026-10-09",
+    "last_event": "Departed Mumbai hub 2026-10-06"
+  },
+  {
+    "shipment_id": "SHP-9002",
+    "carrier": "FastCarrier",
+    "tracking_number": "FC987654321",
+    "status": "Delivered",
+    "eta": "2026-09-24",
+    "last_event": "Delivered to recipient 2026-09-24"
+  },
+  {
+    "shipment_id": "SHP-9005",
+    "carrier": "SkyPost",
+    "tracking_number": "SP555000111",
+    "status": "In transit",
+    "eta": "2026-10-10",
+    "last_event": "Arrived at sorting centre",
+    "_simulate": "outage"
+  },
+  {
+    "shipment_id": "SHP-9006",
+    "carrier": "RoadRunner",
+    "tracking_number": "RR777888999",
+    "status": "Out for delivery",
+    "eta": "2026-10-07",
+    "last_event": "Out for delivery in Hyderabad",
+    "_simulate": "flaky"
+  }
+]
